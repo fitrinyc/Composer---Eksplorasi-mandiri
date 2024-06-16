@@ -1,0 +1,19 @@
+{
+    "name": "lenovo/penggunaa_package",
+    "description": "Penggunaan package faker",
+    "type": "library",
+    "license": "1",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\PenggunaaPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fitri"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
